@@ -1,3 +1,3 @@
-git clone https://github.com/Ythern/rattrapage.git ../
+git clone -b dev --single-branch https://github.com/Ythern/rattrapage.git ../
 docker-compose up -d
 docker-compose ps
