@@ -1,6 +1,6 @@
 IMAGE_NAME="ythern/rattrapage"
 IMAGE_TAG="v1.0"
 
-docker build -t $IMAGE_NAME:$IMAGE_TAG .
+docker build -t ythern/rattrapage:v1.0 ../
 docker login
-docker push $IMAGE_NAME:$IMAGE_TAG
+docker push ythern/rattrapage:v1.0
